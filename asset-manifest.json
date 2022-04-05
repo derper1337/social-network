@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/social-network/static/css/main.14dfc3b2.css",
-    "main.js": "/social-network/static/js/main.02f1fa3c.js",
+    "main.js": "/social-network/static/js/main.c8532e03.js",
     "static/js/787.a952b58e.chunk.js": "/social-network/static/js/787.a952b58e.chunk.js",
     "static/media/Settings.png": "/social-network/static/media/Settings.685099a5042544f1b8f8.png",
     "static/media/ok.png": "/social-network/static/media/ok.a5259c875782a455aa99.png",
@@ -11,11 +11,11 @@
     "static/media/Gear-1.4s-200px.svg": "/social-network/static/media/Gear-1.4s-200px.44da46f2f743326a29baacbaa7e4eb41.svg",
     "index.html": "/social-network/index.html",
     "main.14dfc3b2.css.map": "/social-network/static/css/main.14dfc3b2.css.map",
-    "main.02f1fa3c.js.map": "/social-network/static/js/main.02f1fa3c.js.map",
+    "main.c8532e03.js.map": "/social-network/static/js/main.c8532e03.js.map",
     "787.a952b58e.chunk.js.map": "/social-network/static/js/787.a952b58e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14dfc3b2.css",
-    "static/js/main.02f1fa3c.js"
+    "static/js/main.c8532e03.js"
   ]
 }
