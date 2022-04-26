@@ -1,0 +1,149 @@
+.Profile{
+    margin: 0px 30px;
+    -webkit-animation: fadein 2s;
+}
+.Columns{
+    display: flex;
+}
+.RightColumn{
+    margin-left: 40px;
+}
+.ProfilePicture{
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.Name{
+    font-size: 28px;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+    padding: 0 10px 0 0px;
+    margin-bottom: 20px;
+}
+.Status{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Info{
+    font-size: 18px;
+}
+.Info div{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Info div span{
+    font-weight: normal;
+    margin-bottom: 10px;
+    -webkit-animation: fadein 1s;
+}
+
+.UserButton{
+    width: 45%;
+    height: 50px;
+    margin: 10px 2.5% 0 2.5%;
+    border-radius: 15px;
+    border: none;
+    /*background: rgb(206,188,164);*/
+}
+.AvatarInput{
+    display: none;
+}
+button{
+    transition-duration: 0.5s;
+}
+button:hover{
+    /*background: rgb(187, 170, 148);*/
+    transition-duration: 0.5s;
+}
+.Label{
+    margin: 10px 2.5% 0 2.5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    /*background: rgb(206,188,164);*/
+    border-radius: 15px;
+    height: 50px;
+    transition-duration: 0.5s;
+}
+.Label:hover{
+    /*background: rgb(187, 170, 148);*/
+    transition-duration: 0.5s;
+}
+.Label img{
+    display: block;
+}
+.Post{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.Post img{
+    border-radius: 50px;
+    margin: 10px 10px 10px 0;
+}
+.Post span{
+    font-weight: bold;
+}
+.Post div{
+    flex-grow: 1;
+}
+.Post p{
+    margin: 0;
+    padding: 10px;
+    /*background: rgb(206,188,164);*/
+    border-radius: 30px;
+    word-wrap: break-word;
+}
+.Profile textarea{
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    /*background-color: rgb(206,188,164);*/
+    border: none;
+    transition-duration: 0.5s;
+}
+.Profile textarea:focus{
+    /*background: rgb(243, 236, 227);*/
+    border: none;
+    outline: none !important;
+    transition-duration: 0.5s;
+}
+.PostMenu{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.AddPostButton{
+    margin: 10px;
+    width: 70px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.Profile input{
+    /*background: rgb(206,188,164);*/
+    font-size: 16px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: none;
+    transition-duration: 0.5s;
+    -webkit-animation: fadein 1s;
+}
+.Profile input:focus{
+    /*background: rgb(243, 236, 227);*/
+    border: none;
+    outline: none !important;
+    transition-duration: 0.5s;
+}
+

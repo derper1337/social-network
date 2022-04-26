@@ -1,0 +1,58 @@
+.header{
+    -webkit-animation: fadein 2s;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 0 0 20px;
+    font-size: 24px;
+    border-bottom: solid rgba(0, 0, 0, 0.1) 2px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+a{
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    /*background: rgb(206,188,164);*/
+    transition-duration: 0.5s;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login button{
+    align-self: center;
+    margin-left: 10px;
+    background: none;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+.login button:hover{
+    /*background: rgb(206,188,164);*/
+    transition-duration: 0.5s;
+}
+
+.ActivePage span{
+    border-bottom: dashed 3px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+

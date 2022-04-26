@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/social-network/static/css/main.6dc90448.css",
+    "main.js": "/social-network/static/js/main.3fbe0951.js",
+    "static/js/787.a952b58e.chunk.js": "/social-network/static/js/787.a952b58e.chunk.js",
+    "static/media/Settings.png": "/social-network/static/media/Settings.685099a5042544f1b8f8.png",
+    "static/media/ok.png": "/social-network/static/media/ok.a5259c875782a455aa99.png",
+    "static/media/ChangeAvatar.png": "/social-network/static/media/ChangeAvatar.68caa5876c6dd4dc8fda.png",
+    "static/media/warning.png": "/social-network/static/media/warning.7087a796ef5c3bfdab71.png",
+    "static/media/AddFriend.png": "/social-network/static/media/AddFriend.724c8874e470342e3939.png",
+    "static/media/Gear-1.4s-200px.svg": "/social-network/static/media/Gear-1.4s-200px.44da46f2f743326a29baacbaa7e4eb41.svg",
+    "index.html": "/social-network/index.html",
+    "main.6dc90448.css.map": "/social-network/static/css/main.6dc90448.css.map",
+    "main.3fbe0951.js.map": "/social-network/static/js/main.3fbe0951.js.map",
+    "787.a952b58e.chunk.js.map": "/social-network/static/js/787.a952b58e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dc90448.css",
+    "static/js/main.3fbe0951.js"
+  ]
+}

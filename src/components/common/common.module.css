@@ -1,0 +1,27 @@
+button{
+    background: rgb(206,188,164);
+}
+button:hover{
+    background: rgb(187, 170, 148);
+}
+p{
+    background: rgb(206,188,164);
+}
+textarea{
+    background-color: rgb(206,188,164);
+}
+textarea:focus{
+    background: rgb(243, 236, 227);
+}
+input{
+    background: rgb(206,188,164);
+}
+input:focus{
+    background: rgb(243, 236, 227);
+}
+a{
+    background: rgb(243, 236, 227);
+}
+label{
+    background: rgb(187, 170, 148);
+}

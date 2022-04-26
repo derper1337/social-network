@@ -1,0 +1,110 @@
+.SelectedPage{
+ font-size: 18px;
+ font-weight: bolder;
+}
+.UnselectedPage{
+ font-size: 18px;
+ margin: 0 5px;
+}
+.Users{
+ -webkit-animation: fadein 2s;
+}
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+@keyframes fadeOut {
+ from { opacity: 1; }
+ to   { opacity: 0; }
+}
+.UserName{
+ margin: 0;
+ font-size: 20px;
+ height: fit-content;
+}
+.UserName p{
+ margin: 10px;
+ font-size: 18px;
+ background: none;
+}
+.UserPicture{
+ margin: 10px;
+ padding: 0;
+}
+.UserPicture:hover{
+  background: none;
+}
+.UsersContainer{
+ margin: 20px 40px;
+ display: flex;
+ border: 2px solid rgba(0, 0, 0, 0.19);
+ border-radius: 30px;
+}
+.UserFollowButton{
+ align-self: center;
+ margin-left: auto;
+ margin-right: 20px;
+}
+.UserFollowButton button{
+ width: 70px;
+ height: 70px;
+ border: none;
+ border-radius: 500px;
+ -webkit-animation: fadeIn 1s;
+}
+.UserFollowButton span{
+ font-size: 18px;
+ -webkit-animation: fadein 1s;
+}
+.SearchContainer{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-flow: column;
+}
+.SearchContainer input{
+ width: 40vw;
+ border-radius: 40px;
+ border: none;
+ transition-duration: 0.5s;
+ outline: none !important;
+ padding: 10px;
+}
+.Searcher{
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.Searcher input{
+ font-size: 18px;
+}
+.Searcher button{
+ margin-left: 10px;
+ width: 60px;
+ border-radius: 40px;
+ border: none;
+}
+.Paginator{
+ align-self: center;
+ margin-right: 60px;
+ display: flex;
+}
+.PageNumbers{
+ display: flex;
+ width:30vw;
+ justify-content: space-evenly;
+}
+.Paginator button{
+ width: 60px;
+ border-radius: 40px;
+ border: none;
+}
+.Warning{
+ margin-right: 40px;
+ margin-top: 60px;
+ width: 100%;
+ height: 100%;
+ font-size: 22px;
+ display: flex;
+ justify-content: center;
+}
