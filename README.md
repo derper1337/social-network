@@ -15,5 +15,6 @@ To start app on your local server just type the comand
 - Redux thunk
 
 
-You can check the source code in the master branch
+You can check the source code in the master branch.
+
 Feel free to comment and point my misstakes.
